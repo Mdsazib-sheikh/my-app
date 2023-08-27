@@ -67,3 +67,34 @@ section{
 footer p{
     text-align: center;
 }
+.body-color{
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin:15%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_slide{
+    position:relative;
+    background:#003247;
+    padding:40px;
+
+}
+.container .right_slide{
+    position:relative;
+    background:#fff;
+    padding:40px;
+    
+}
