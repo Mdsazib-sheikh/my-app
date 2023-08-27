@@ -39,8 +39,9 @@ section{
     color: rgb(246, 244, 241);
     font-weight:700 ;
 }
+
 .dream-area{
-    background-image: url(images/banner2.jpg);
+    background-image: url("images/banner2.jpg");
     background-repeat: no-repeat;
     background-position:right ;
 }
@@ -48,7 +49,21 @@ section{
     box-shadow:10px 10px 40px gray;
     border-radius: 5px;
     height: 70%;
+    background-color: white;
 }
 .experience-area{
-    background-image: url(images/banner3.png);
+ background-image: url("images/banner3.png");
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#react-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue ,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
