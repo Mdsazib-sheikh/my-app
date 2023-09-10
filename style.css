@@ -232,3 +232,23 @@ color: rgb(200, 225, 9);
 p{
     color: #333;
 }
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company{
+    min-width: 150px;
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color: rgb(25, 18, 225);
+    font-size: 160;
+
+
+}
