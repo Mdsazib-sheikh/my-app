@@ -279,6 +279,14 @@ font-weight: 500;
     height: 100%;
     background: #cc1515;
 }
+
+
+.bird{
+  opacity: 0.10;
+  
+
+}
+
 /* website   code start*/
 /* Importing Google font - Open Sans */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
@@ -472,9 +480,10 @@ body {
   .hero-section .hero {
     max-width: 100%;
     text-align: center;
-  }
+
 
   .hero-section img {
     display: none;
   }
 }
+ 
